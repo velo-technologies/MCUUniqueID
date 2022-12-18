@@ -1,13 +1,10 @@
-# ArduinoUniqueID
+# MCUUniqueID
 
-This Library gets the Unique ID / Manufacture Serial Number from the Atmel AVR, SAM, SAMD, STM32, and ESP Microcontroller.
-
-[![Compile Sketch](https://github.com/ricaun/ArduinoUniqueID/actions/workflows/Compile-Sketch.yml/badge.svg)](https://github.com/ricaun/ArduinoUniqueID/actions)
-
+This Library gets the Unique ID / Manufacture Serial Number from the Atmel AVR, SAM, SAMD, STM32, and ESP MCU.
 
 # Microcontrollers
 
-ArduinoUniqueID supports the [Microcontrollers](MCU.md).
+MCUUniqueID supports the [Microcontrollers](MCU.md).
 
 * Atmel AVR - [`Not Unique Disclaimer`](MCU.md#Disclaimer)
 * Atmel SAM ARM
@@ -33,7 +30,7 @@ The library comes with [examples](examples). After installing the library you ne
 ## Include Library
 
 ```c
-#include <ArduinoUniqueID.h>
+#include <MCUUniqueID.h>
 ```
 
 ### Variable: UniqueID & UniqueIDsize
@@ -70,4 +67,4 @@ Print the last eight hexadecimal bytes of the Unique Serial ID on the Stream.
 void UniqueID8dump(Stream);
 ```
 
-Do you like this library? Please [star this project on GitHub](https://github.com/ricaun/ArduinoUniqueID/stargazers)!
+Do you like this library? Please [star original project on GitHub](https://github.com/ricaun/ArduinoUniqueID/stargazers)!
